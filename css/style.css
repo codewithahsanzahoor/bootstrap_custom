@@ -1,0 +1,133 @@
+/*=============================================
+=            nav            =
+=============================================*/
+#top_nav {
+	background-color: #daac00 !important;
+	padding: 0 8%;
+	padding-block: 18px;
+}
+
+.navbar-brand .img-fluid {
+	width: 50px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	color: rgb(255 255 255) !important;
+	padding-left: 46px;
+	font-size: 21px;
+}
+
+#search_box {
+	background-color: #fcc302;
+	color: white;
+	border: 0px;
+	border-radius: 0;
+	position: relative;
+	left: 8px;
+	box-shadow: 0px 4px 14px 1px grey;
+}
+#search_box::placeholder {
+	color: white;
+}
+
+#search_btn {
+	position: relative;
+	right: 40px;
+	background-color: #00bec9;
+	color: white;
+	border: 0;
+	border-radius: 0;
+}
+
+/*----------  media queries  ----------*/
+
+@media screen and (max-width: 991px) {
+	#navbar_main_ul {
+		position: relative;
+		left: -48px;
+	}
+
+	#nav_main_form {
+		position: relative;
+		left: -11px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#top_nav {
+		padding-block: 0px;
+	}
+	.navbar-toggler-icon {
+		width: 1rem;
+		height: 1rem;
+	}
+}
+
+/*=====  End of nav  ======*/
+
+/*=============================================
+=            Main Section            =
+=============================================*/
+
+/*----------  banner  ----------*/
+
+#banner {
+	background-color: #fcc302;
+	padding-block: 1rem;
+}
+
+#banner_img {
+	padding-top: 2rem;
+}
+
+#banner_text h1 {
+	color: white;
+	font-size: 2rem;
+	margin-top: 100px;
+}
+
+#banner_text p {
+	color: white;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#banner_btn_1 {
+	background-color: #00bec9;
+	color: white;
+	border: 2px solid #00bec9;
+}
+
+#banner_btn_2 {
+	color: white;
+	border: 2px solid white;
+	margin-left: 15px;
+}
+
+@media screen and (max-width: 767px) {
+	#banner_img > img:nth-child(1) {
+		margin-top: 1rem;
+	}
+}
+
+@media screen and (max-width: 924px) {
+	#banner_text h1 {
+		margin-top: 33px !important;
+	}
+}
+
+/*----------  counter section  ----------*/
+#counter_section {
+	color: white;
+	background: linear-gradient(rgba(247, 212, 14, 0.6), rgba(247, 212, 14, 0.3)),
+		url(https://images.pexels.com/photos/4021769/pexels-photo-4021769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.counter_icons {
+	font-size: 2rem;
+}
+
+/*=====  End of Main Section  ======*/
